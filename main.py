@@ -43,7 +43,7 @@ def processCommand(c):
 
 
 if __name__ == "__main__":
-    speak("Initializing jarvis...")
+    speak("Initializing Voctra...")
     while True:
         #listen for the wake word jarvis
         #obtain audio from the microphone
