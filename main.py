@@ -56,11 +56,11 @@ if __name__ == "__main__":
                 print("listening...")
                 audio=r.listen(source, timeout=2 , phrase_time_limit=1)
             word=r.recognize_google(audio)
-            if(word.lower() =="jarvis"):
+            if(word.lower() =="Voctra"):
                 speak("ya")
                 #listen for command
                 with sr.Microphone() as source:
-                    print("jarvis active...")
+                    print("Voctra active...")
                     audio=r.listen(source)
                     command=r.recognize_google(audio)
 
